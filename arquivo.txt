@@ -5,7 +5,7 @@ programa{
     escreva("LANCHONETE DO YOSEPH\n\n")
     faca{
       escreva(" CARDÁPIO\n")
-      escreva("1- X SALADA R$15 \n")
+      escreva("1- X SALADA R$20 \n")
       escreva("2- X BACON R$17 \n")
       escreva("3- X EGG R$18 \n")
       escreva("4- REFRIGERANTE R$5 \n")
@@ -19,7 +19,7 @@ programa{
 
        
         caso 1:
-          total=total+15.00
+          total=total+20.00
         pare
        
         caso 2:
