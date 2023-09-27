@@ -1,0 +1,54 @@
+programa{
+  funcao inicio(){
+        real total=0.00
+        inteiro opcao
+    escreva("LANCHONETE DO YOSEPH\n\n")
+    faca{
+      escreva(" CARDÁPIO\n")
+      escreva("1- X SALADA R$15 \n")
+      escreva("2- X BACON R$17 \n")
+      escreva("3- X EGG R$18 \n")
+      escreva("4- REFRIGERANTE R$5 \n")
+      escreva("5- Finalizar pedido \n")
+      escreva("\nDigite seu pedido: \n")
+    leia(opcao)
+
+
+        escolha (opcao) {
+
+
+       
+        caso 1:
+          total=total+15.00
+        pare
+       
+        caso 2:
+          total=total+17.00
+        pare
+       
+        caso 3:
+          total=total+18.00
+        pare
+
+
+        caso 4:
+          total=total+5.00
+        pare
+       
+        caso 5:
+        escreva("Pedido finalizado. Seu pedido ficou no valor de: ", total)
+        pare
+       
+        caso contrario:
+          escreva("Informe um número de 1 até 5!\n\n")
+      }      
+    }   enquanto(opcao != 5)
+
+
+   
+  }
+}
+
+
+
+
